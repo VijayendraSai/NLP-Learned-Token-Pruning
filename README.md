@@ -57,8 +57,8 @@ We conduct experiments on short-text datasets like **AG News** and **IMDb Review
 - `model_pipeline_imdb.ipynb` — Training pipeline using IMDb dataset
 
 ### 🔹 Trained Models (Post Phase 3)
-- `ag_news_distilbert_hard/` — Final AG News model checkpoint - https://drive.google.com/drive/folders/1jM8vA-b6g4q5cGAWh5AxTtjn6wG2kIJ6?usp=share_link
-- `imdb_distilbert_hard/` — Final IMDb model checkpoint - https://drive.google.com/drive/folders/1oY8q8zXdxVc5AkxZEU6qRbZ5oAzg9UYA?usp=share_link
+- `ag_news_distilbert_hard/` — Final AG News model checkpoint - [Link here](https://drive.google.com/drive/folders/1jM8vA-b6g4q5cGAWh5AxTtjn6wG2kIJ6?usp=share_link)
+- `imdb_distilbert_hard/` — Final IMDb model checkpoint - [Link here](https://drive.google.com/drive/folders/1oY8q8zXdxVc5AkxZEU6qRbZ5oAzg9UYA?usp=share_link)
 
 ### 🔹 Pruned CSV Outputs
 Each CSV contains:
