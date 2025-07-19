@@ -50,6 +50,33 @@ We conduct experiments on short-text datasets like **AG News** and **IMDb Review
 
 ---
 
+## 📁 Files and Their Uses
+
+### 🔹 Model Training Pipelines
+- `model_pipeline_agnews.ipynb` — Training pipeline using AG News dataset  
+- `model_pipeline_imdb.ipynb` — Training pipeline using IMDb dataset
+
+### 🔹 Trained Models (Post Phase 3)
+- `ag_news_distilbert_hard/` — Final AG News model checkpoint - https://drive.google.com/drive/folders/1jM8vA-b6g4q5cGAWh5AxTtjn6wG2kIJ6?usp=share_link
+- `imdb_distilbert_hard/` — Final IMDb model checkpoint - https://drive.google.com/drive/folders/1oY8q8zXdxVc5AkxZEU6qRbZ5oAzg9UYA?usp=share_link
+
+### 🔹 Pruned CSV Outputs
+Each CSV contains:
+- Initial sentence
+- Pruned sentence (final retained tokens)
+- True and predicted labels
+- POS tags of retained sentence
+
+Files:
+- `cleaned_agnews_pruned.csv`
+- `cleaned_imdb_pruned.csv`
+
+### 🔹 Results and Visualizations
+- `results_agnews/` — Graphs and token analysis for AG News
+- `results_imdb/` — Graphs and token analysis for IMDb
+
+---
+
 ## 📈 Results Summary
 
 ### 🟠 IMDb
