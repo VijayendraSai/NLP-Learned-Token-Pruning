@@ -77,5 +77,30 @@ We conduct experiments on short-text datasets like **AG News** and **IMDb Review
 - LTP leads to significant **token reduction** with **minimal accuracy drop**.
 
 
+---
+
+## 🧠 Expected Outcomes
+
+- **Token Pruning Patterns**: Insight into which token types are preserved vs. dropped.
+- **Performance Trade-offs**: Measure LTP’s effect on classification metrics.
+- **Interpretability**: Clarity on how models make decisions post-pruning.
+
+---
+
+## 📦 Requirements
+
+- Python 3.8+
+- PyTorch
+- Transformers (Hugging Face)
+- spaCy
+- scikit-learn
+- Matplotlib, Seaborn
+
+Install via:
+
+```bash
+pip install -r requirements.txt
+
+
 
 
